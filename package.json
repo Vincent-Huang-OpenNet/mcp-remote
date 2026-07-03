@@ -26,6 +26,7 @@
   "scripts": {
     "build": "tsup",
     "build:watch": "tsup --watch",
+    "prepare": "tsup",
     "check": "prettier --check . && tsc",
     "lint-fix": "prettier --check . --write",
     "test:unit": "vitest run",
